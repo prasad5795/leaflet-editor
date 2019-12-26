@@ -1,0 +1,8 @@
+export const GET_EXISTING_GEOMETRY = 'GET_EXISTING_GEOMETRY'
+export const GET_EXISTING_GEOMETRY_FINISHED = 'GET_EXISTING_GEOMETRY_FINISHED'
+export const GET_EXISTING_GEOMETRY_ERROR = 'GET_EXISTING_GEOMETRY_ERROR'
+
+export const getExistingGeometry = (payload) => ({
+  type: GET_EXISTING_GEOMETRY,
+  payload: payload
+})
